@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    
+}
+
+.cabecalho {
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.LogoWeb {
+    height: 50px;
+    
+}
+
+.rodape {
+    position: relative;
+    height: 100px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ImagemRodape {
+    width: 7%;
+    position: flex;
+    top: 50%;
+    left: 47%;
+   
+    
+    
+   
+}
+
+
+
+.Menu {
+    display: flex;
+    gap: 32px;
+    font-family: 'Salara', sans-serif;
+}
+
+
+
+.LetraBonita {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+}
+
+
+
+
+
+.corpo {
+    background-color: white;
+
+}
+
+.principal {
+    background: linear-gradient(to bottom, green, black);
+    color: white;
+    border-top: 4px solid #000000 ;
+
+}
+
+.Professor {
+    position: relative;
+    height: 100px;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .Professor img {
+    margin-right: 20px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+  }
+  
+  .Professor h4 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .Links {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+
+
+ 
